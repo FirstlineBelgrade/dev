@@ -1,4 +1,4 @@
-FROM centos:centos 7
+FROM centos:centos7
 
 MAINTAINER First Line Support Belgrade
 
