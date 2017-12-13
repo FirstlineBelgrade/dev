@@ -10,7 +10,7 @@ MAINTAINER First Line Support Belgrade
 
 # Ensure we got an up-to-date system without caches
 #ENV UPDATED=20170822
-#RUN yum -y update && yum clean all
+RUN yum -y update && yum clean all
 
 # set up internal ca, rpm keys, add yum repo
 #COPY InternalCACert.pem /etc/pki/ca-trust/source/anchors/InternalCA.crt
