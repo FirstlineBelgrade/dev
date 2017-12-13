@@ -23,3 +23,5 @@ RUN yum -y update && yum clean all
 # Install basics
 #RUN yum -y install bzip2 pbzip2 sudo tar telnet wget unzip gosu dumb-init && yum clean all
 #RUN sed -e "/.*requiretty/d" -e "/.*visiblepw/d" -i /etc/sudoersi
+
+yum install gcc-c++ patch readline readline-devel zlib zlib-devel    libyaml-devel libffi-devel openssl-devel make    bzip2 autoconf automake libtool bison iconv-devel sqlite-devel
